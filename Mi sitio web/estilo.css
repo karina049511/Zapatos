@@ -1,0 +1,197 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*Body*/
+
+body
+
+{
+
+    margin:0px;
+
+    padding-top:20px;  /*20 pixeles de separaciòn para el Body*/
+
+    background-color: #8A0829;
+
+
+
+}
+
+#main_container  /*contenedor principal*/
+
+{
+
+    width:90%; /*abarca el 90% de la pantalla*/
+
+    margin-left:5%; /*Margen de la derecha 5%*/
+
+    padding-top:10px; /*Separación de la parte superior */
+
+    padding-bottom:10px; /*Separación de la parte inferior*/
+
+    float:left;
+
+    border: 5px outset; /*Borde sombreado*/
+
+    text-align: center;
+
+    background:#848484; /*Color de fondo del contenedor */
+
+
+}
+
+/*Content*/ /*Segundo contenedor donde se encuentra el article*/
+
+.content{
+
+    width:90%;
+
+    margin-top:5px;
+
+    margin-left:5%;
+    padding-top:15px; /*Separación de la parte superior */
+    padding-bottom:50px; /*Separación de la parte inferior */
+    background:#848484; /*Color de fondo del contenedor */
+    border: 2px outset; /* Borde del contenedor dashed*/
+    height: auto; /* Definimos height: auto para que el texto que pongamos en nuestro article dentro del contenedor no se desborde (altura)*/
+    float:left;
+  
+
+
+}
+
+.content article
+
+{
+
+    padding: 3%; /*Separación de nuestro article */
+
+}
+
+.content article h2
+{
+
+}
+
+/*Header*/ /*Header es el apartado donde ponemos nuestros logotipos*/
+
+.header
+
+{
+
+  
+    width:90%; /*abarca el 90% de la pantalla*/
+
+    margin-top:5px; /*Margen parte superior 5 pixeles */
+
+    margin-left:5%; /*Margen a la derecha 5 pixeles*/
+
+    background:#848484; /*Color de fondo del contenedor */; /*Color de fondo de nuestro header*/
+
+    border: 5px outset; /*Borde de nuestro header*/
+
+    height: 225px; /*Definimos height de 200px de altura para nuestro header*/
+
+    float:left;  
+
+}
+
+ 
+
+/*Menu */
+
+.top_menu ul
+
+{
+
+    list-style:none; /*Quitamos los estilos de nuestra lista*/
+    float:left; 
+    border: 0px dashed;/*Agregamos el borde de lineas punteadas para diferenciar el menu*/
+    padding: 4%; /*Separación de nuestra lista dentro del nav*/
+    width:90%;  /*Ancho de nuestro nav 90% para que abarque el ancho de nuestro contenedor*/
+
+}
+
+ 
+
+.top_menu ul li
+
+{
+
+
+    float:left;
+
+    margin-right:30px; /*Separación entre cada botón */
+
+    background: #1C1C1C;  /*COLOR DE LOS BOTONES  */
+
+    padding:15px;  /*Separación entre cada botón */
+
+    border-radius: 10%;  /*BORDE DE LOS BOTONES*/
+
+    text-align: center;
+  
+
+}
+
+.top_menu ul li a
+
+{
+
+    color: #FFFFFF; /*COLOR DE LA LETRA DENTRO DE LOS BOTONES*/
+
+    text-decoration:none; /*Quitar los estilos de las palabras */
+    text-align: center;
+
+}
+
+.top_menu ul li a:hover
+
+{
+
+    color: black; /*Cuando el puntero pase sobre el boton el texto cambia a color negro */
+
+    text-align: center;
+
+}
+
+ 
+
+/*Footer*/
+
+.footer
+
+{
+
+    width:90%;
+
+    margin-top:10px;
+
+    margin-left:5%;
+
+    background:#ffffff;
+
+    border: 3px outset;
+
+    height: 110px;
+
+    float:left;
+
+}
+
+ 
+
+.footer_msg
+
+{
+
+margin-top: 40px;
+
+float: left;
+
+margin-left: 5%;
+
+font-size: 0.8em;
+color: rgb(126, 126, 126);
+
+}
